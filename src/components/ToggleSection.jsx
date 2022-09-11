@@ -11,7 +11,7 @@ const ToggleSection = () => {
   return (
     <div className="mt-10">
       <div className="w-full px-24  border-t  md:w-[60rem] mx-auto">
-        <ul className="flex justify-center lg:justify-start  space-x-3 text-xl">
+        <ul className="flex justify-center lg:justify-start  space-x-3 text-base md:text-xl ">
           <li className="flex cursor-pointer items-center justify-center space-x-2 px-4 py-5  border-t-2 border-black">
             <BsGrid3X3 /> <span className="font-semibold">POSTS</span>
           </li>
