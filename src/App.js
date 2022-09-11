@@ -1,6 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Navbar, UserSection, UsersPics } from "./components";
+import {
+  Navbar,
+  Posts,
+  ToggleSection,
+  UserSection,
+  UsersPics,
+} from "./components";
 
 function App() {
   return (
@@ -8,6 +14,8 @@ function App() {
       <Navbar />
       <UserSection />
       <UsersPics />
+      <ToggleSection />
+      <Posts />
     </div>
   );
 }
